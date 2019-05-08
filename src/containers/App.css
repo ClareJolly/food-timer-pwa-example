@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton|Nixie+One|Syncopate');
+
+h1, h2, h3, h4 {
+  font-family: 'Syncopate', sans-serif;
+}
+
+.late {
+  color: #e60000;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+input {
+  padding: 5px 5px;
+  margin: 1px;
+  /* display: inline-block; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* box-sizing: border-box; */
+  font-family: 'Nixie One', cursive;
+  font-weight: bolder;
+  width: 120px
+}
+
+.timefield {
+  width: 60px;
+  padding: 2px 2px;
+}
+
+div, body, a, p {
+  font-family: 'Nixie One', cursive;
+  font-weight: bolder;
+}
+
+div {
+  /* margin: 10px; */
+}
+
+.recipeDetails {
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+button {
+  font-family: 'Nixie One', cursive;
+  font-weight: bolder;
+  background-color: #fff;
+  /* Green */
+  /* border: none; */
+  color: black;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  border-radius: 4px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  border: 2px solid #4CAF50;
+}
+
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.addButton {
+  padding: 1px;
+  margin-left: 10px;
+  font-size: 10px;
+
+}
+
+/* .addbutton:hover {
+  background-color: white !important;
+  color: white;
+} */
+
+.addbtndiv {
+  width: 50px;
+}
+
+label {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.App {
+  text-align: center;
+  margin: 10px;
+  /* width:400px; */
+  /* padding: 10px; */
+}
+
+.TimeForm {
+  /* text-align: center; */
+  /* width:400px; */
+  /* margin:0px 200px 0px 200px */
+}
+
+.leftStyle {
+  text-align: right;
+  padding: 2px 2px 2px 2px;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+	vertical-align:top;
+}
+
+.rightStyle {
+  text-align: left;
+  padding: 2px 2px 2px 2px;
+	vertical-align:top;
+}
+
+.centerStyle {
+  text-align: center;
+  padding: 2px 2px 2px 2px;
+  text-transform: uppercase;
+	vertical-align:top;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
